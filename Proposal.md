@@ -1,4 +1,4 @@
-# Capstone Data Science 690 (Draft Proposal)
+# Capstone Data Science 606 (Draft Proposal)
 ##### Proposal By :
 ##### Hari Chandana Datla
 ##### Lakshmi Chandana Shaik
