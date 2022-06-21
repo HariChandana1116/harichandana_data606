@@ -62,7 +62,7 @@ We will be visualizing data with the help of Tableau. We are also contemplating 
 * Logistic Regression
 * KNN classifier
 * Grid Search
-* Mertics
+* Metrics
 ##### Lakshmi Chandana Shaik
 * Data EDA
 * Decision Tree
