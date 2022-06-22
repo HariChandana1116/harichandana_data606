@@ -35,7 +35,7 @@ Dataset has information from 500 cities from the US which helps in bringing out 
 
 * Dataset has information from 500 cities from the US which helps in bringing out data for better health.
 * Each row represents an estimate from various cities with a unique ID and on what measures it was taken with a measureID as well from the years 2015 and 2016. It was provided with a geographical location and geographical level like US or City or Census tract, from where the estimate was collected.
-* In this dataset, we have found that the measures that cause chronic diseases were categorized into three major grades like Unhealthy behaviors, Health outcomes and Preventions. These brands are labelled under the column named Category. This Category column has these three sections of measures that cause chronic diseases.
+* In this dataset, we have found that the measures that cause chronic diseases were categorized into three major grades like Unhealthy behaviors, Health outcomes and Preventions. These brands are labelled under the column named Category. This Category column has these three sections of measures that are related to chronic diseases.
 Below is a pie chart that exhibits the break down of those categories.
 
 <img width="490" alt="image" src="https://user-images.githubusercontent.com/77841272/172450415-248c823a-6880-4b50-9169-6c7d5f1c7e7d.png">
