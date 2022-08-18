@@ -13,7 +13,6 @@ By working on this health data, we can get to know the quality of public health 
 #### What questions do you have in mind and would like to answer?
 * The main objective is to analyze the unhealthy behaviors, health outcomes and prevention (3 variables) responsible for chronic diseases in major cities.
 * Which cities are more into prevention?
-* Predicting cities which are more prone to chronic diseases?
 * Identifying which machine learning model gives the best accuracy score for our analysis
 
 #### Data source 
