@@ -30,7 +30,7 @@ Dataset has information from 500 cities from the US which helps in bringing out 
 
 <img width="403" alt="image" src="https://user-images.githubusercontent.com/77841272/172907884-3216d0f2-f473-4fc8-9197-47b8d3231834.png">
 
-#### **Data Cleaning & preparation**
+### **Data Cleaning & preparation**
 
 Initially, in the process of data cleaning, existance of null values in the columns are checked and below is the graph that explains more clearly.
 
@@ -43,7 +43,7 @@ IMAGE2
 Now, the process of Data preparation is done by checking out various metrics like finding out the unique states and cities from the dataset, checking on some specific states or categories or measures.
 
 
-#### **EDA**
+### **EDA**
 
 To start with data analysis, we grouped the target feature "CategoryID" and pulled out the graphs for rest of the columns which can be seen below.
 
@@ -79,7 +79,7 @@ IMAGE9
 The next scatter plot gives you corelation between high blood plessure prevalence vs obesity prevalence.
 
 
-#### **Data Processing & Encoding**
+### **Data Processing & Encoding**
 
 There comes processing the data for further usage especially for the machine learning that will be used.
 It was found that there is some imbalance in the target variable. SO we had to resample the data which means balancing any imbalances in the features that will be worked on. The below graphs show you how the target variable looks before and after resampling the data.
@@ -92,7 +92,7 @@ As the data is ready to face machine learning models, we began to split the data
 
 IMAGE 11
 
-#### **Machine Learning Models**
+### **Machine Learning Models**
 
 We have decided to perform three regression models and two classifier models on our data.
 1. Linear Regression
@@ -117,6 +117,6 @@ IMAGE 14
 
 
 
-#### **Conclusion**
+### **Conclusion**
 
-#### **References**
+### **References**
