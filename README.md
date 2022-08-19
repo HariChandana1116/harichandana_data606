@@ -21,17 +21,21 @@ The source for this data is CDC(Centers for Disease Control and Prevention)., Di
 2012-2016, 2011-2015 estimates.
 
 Link for the dataset : [Dataset](https://chronicdata.cdc.gov/500-Cities-Places/500-Cities-Local-Data-for-Better-Health-2018-relea/rja3-32tc)
+
 Size of dataset is 224.276 MB.
 
 The dataset has 810k rows and 24 columns.
 
 Dataset has information from 500 cities from the US which helps in bringing out data for better health.
+
 <img width="403" alt="image" src="https://user-images.githubusercontent.com/77841272/172907884-3216d0f2-f473-4fc8-9197-47b8d3231834.png">
 
 #### **Data Cleaning & preparation**
 
 Initially, in the process of data cleaning, presence of null values in the columns are checked and below is the graph that explains more clearly.
 
+
+<img width="403" alt='img' src="C:\Users\91951\Documents\MASTERS\DATA 606\Images for Presentation\13.png">
 
 #### **EDA**
 
