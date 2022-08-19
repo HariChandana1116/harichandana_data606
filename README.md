@@ -114,9 +114,18 @@ To have a better understanding and comparision, we have compared all the results
 IMAGE 14
 
 
-
-
-
 ### **Conclusion**
 
+* Of all the observations, the significant one that we found was decision tree classifier and random forest classifier worked at their best on the dataset compared to other regression models that we have used.
+* As CategoryID is the target variable in our analysis, we found out that the category called health outcomes stood front.
+* As per the idea of our research, we have found out that less number of people are into preventions and most of them are taking medications once they got to understand they have been suffering from some kind of health issue that were mentioned in the measures in our dataset.
+
+At the end, we would like to say something through a well known quote that "Health is Wealth". Therefore, it is good for everyone to follow more preventive actions rather than suffering and curing them.
+
 ### **References**
+
+[GitHub link](https://github.com/HariChandana1116/harichandana_data606)
+
+[Dataset](https://chronicdata.cdc.gov/500-Cities-Places/500-Cities-Local-Data-for-Better-Health-2018-relea/rja3-32tc)
+
+[Reference for Regressions](https://towardsdatascience.com/whats-the-difference-between-linear-regression-lasso-ridge-and-elasticnet-8f997c60cf29)
