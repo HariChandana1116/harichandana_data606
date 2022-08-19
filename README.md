@@ -30,6 +30,9 @@ Dataset has information from 500 cities from the US which helps in bringing out 
 
 #### **Data Cleaning & preparation**
 
+Initially, in the process of data cleaning, presence of null values in the columns are checked and below is the graph that explains more clearly.
+
+
 #### **EDA**
 
 #### **Data Processing & Encoding**
