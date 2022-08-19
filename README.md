@@ -15,7 +15,7 @@
 
 #### **Introduction & Overview**
 Health is a foremost important factor in the society. In the current fast living culture people are falling prey for chronic diseases. Unhealthy behaviors and eating habits are leading to chronic diseases like high blood pressures, diabetes and unhealthy cholestrol levels. Along with these people are also looking for ways to prevent these diseases by adopting much healthier choices. This capstone project provides an insight into use of health care data, starting with generating a quality data, disovering patterns and extracting knowledge using various machine learning models.
-In this project we have used various tools such as Matplotlib, PySpark, PySparkSQL and python machine learning libraries.  
+In this project we have used various tools such as Matplotlib, Sweetviz, PySpark, PySparkSQL and python machine learning libraries.  
 
 #### **Dataset Overview**
 The source for this data is CDC(Centers for Disease Control and Prevention)., Division of Population Health, Epidemiology and Surveillance Branch and this project of making this dataset was funded by the Robert Wood Johnson Foundation (RWJF) in conjunction with the CDC Foundation. Data sources used to generate these measures include Behavioral Risk Factor Surveillance System (BRFSS) data (2016, 2015), Census Bureau 2010 census population data, and American Community Survey (ACS)
@@ -34,51 +34,19 @@ Dataset has information from 500 cities from the US which helps in bringing out 
 ### **Data Cleaning & preparation**
 
 The first step in our project in data cleaning. There were null values and duplicate values in few columns of the dataset. We have checked in which columns were the null values existing. There were null values in the columns regarding data value footnotes and other columns which has least importance forour analysis. There fore we have dropped those columns from our dataset thus handling null values in our dataset too. 
-
-IMAGE1
-
-Then data cleaning like removing/dropping the columns that will not help us in our analysis was finished. Below is the image that shows you regarding the same.
-
-IMAGE2
-
-Now, the process of Data preparation is done by checking out various metrics like finding out the unique states and cities from the dataset, checking on some specific states or categories or measures.
-
+Then we have found that the duplicate values are due to census tract data in our dataset. Therefore we have found more than one value for a city due to city FIPS number.
+Also we have used Sweetviz to see the health of the dataset. And these Sweetviz output files can be seen [Sweetviz](https://github.com/HariChandana1116/harichandana_data606/tree/main/Sweetviz) folder in the repository.
 
 ### **EDA**
 
-To start with data analysis, we grouped the target feature "CategoryID" and pulled out the graphs for rest of the columns which can be seen below.
+After the data cleaning process we have started our EDA by grouping the target feature "CategoryID" and pulled out the graphs for rest of the columns. We have carried out the EDA process on New York, California data. This EDA process was carried both in [Google colab notebook](https://github.com/HariChandana1116/harichandana_data606/blob/main/EDA%20and%20Machine%20Learning/EDA%20%26%20ML.ipynb) as well as in [Databricks PySpark](https://github.com/HariChandana1116/harichandana_data606/blob/main/EDA%20and%20Machine%20Learning/606-EDA%20Databricks%20(1).ipynb) and they can be seen in the repository.
 
-IMAGE3
-
+<img width="809" alt="image" src="https://user-images.githubusercontent.com/77841272/185717343-1e652df9-3586-4ff9-9662-f05c20da3409.png">
+<img width="813" alt="image" src="https://user-images.githubusercontent.com/77841272/185717398-ab84f425-dc69-4ddb-a3dd-d9bc6ba18d02.png">
 Then after correlation matrix shows all the posible pairs of values correlated in the table and below is the visualization of it.
-More visualization is done using a special application called SweetViz and the visuals created from that application are provided in the attached files.
-
-As part of analysing the data more clearly, we have extracted various graphs. Firstly, the below graphs shows the states and cities that occupied top 10 positions in their occurence.
-
-IMAGE4
-
-Secondly, analysing New York and Oklahoma records on the basis of category.
-
-IMAGES5
-
-Then the below graph shows the health outcomes for the measures heart stroke and diabetes in adults from New York state.
-
-IMAGE6
-
-The nextone shows unhealthy behaviours due to measures like binge drinking and sleep deprivation.
-
-IMAGE7
-
-In the same way, some more analysis is continued for the state California that tells us about the health outcomes due to measures like obesity and chronic kidney diseases.
-
-IMAGE8
-
-The below graph explains health outcomes rate for the measures binge drinking and coronary heart diseases in adults from california.
-
-IMAGE9
-
-The next scatter plot gives you corelation between high blood plessure prevalence vs obesity prevalence.
-
+<img width="507" alt="image" src="https://user-images.githubusercontent.com/77841272/185717839-150ca134-f9d5-434f-8979-29443e9aeff8.png">
+we have also plotted scatter plot for the relationship between obesity and high blood pressure.
+<img width="323" alt="image" src="https://user-images.githubusercontent.com/77841272/185717688-6b630665-5be1-42d3-a587-6154ef83f083.png">
 
 ### **Data Processing & Encoding**
 
