@@ -30,6 +30,7 @@ Size of dataset is 224.276 MB.
 The dataset has 810k rows and 24 columns.
 
 Dataset has information from 500 cities from the US which helps in bringing out data for better health.
+
 <img width="403" alt="image" src="https://user-images.githubusercontent.com/77841272/172907884-3216d0f2-f473-4fc8-9197-47b8d3231834.png">
 
 * Dataset has information from 500 cities from the US which helps in bringing out data for better health.
