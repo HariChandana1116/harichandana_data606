@@ -1,10 +1,13 @@
+<img width="560" alt="image" src="https://user-images.githubusercontent.com/77841272/185727220-aff202f3-b378-4497-88b8-5c8079613e9c.png">
+
 # **CDC 500 Cities: Local data for better Health**
 ### Data 606 Capstone project
 #### Team C
 ###### Hari Chandana Datla
 ###### Lakshmi Chandana Shaik
 [Project link Youtube](https://youtu.be/vc3as84qhiM)
-[presentation link]
+
+[Presentation link](https://github.com/HariChandana1116/harichandana_data606/blob/main/500%20Cities%20PPT.pptx)
 
 #### **Contents**
 * [Introduction & Overview](#introduction--overview)
