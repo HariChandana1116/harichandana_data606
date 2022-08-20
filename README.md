@@ -57,7 +57,7 @@ we have also plotted scatter plot for the relationship between obesity and high 
 ### **Data Processing & Encoding**
 
 After EDA, the we had to further process our dataset in order to make it ready for our machine learning analysis. We have found a significant imbalance in our dataset. So we have performed resampling to balace our data as using imbalance data for machine learning analysis can produce biased results. Below is the image that shows the data before and after resampling.
-<img width="571" alt="image" src="https://user-images.githubusercontent.com/77841272/185727245-6756ded7-260c-499e-a45f-254160f4737e.png"
+<img width="571" alt="image" src="https://user-images.githubusercontent.com/77841272/185727245-6756ded7-260c-499e-a45f-254160f4737e.png">
 
 After resampling we have started encoding all the categorical values using OneHotEncoder. As part of encoding we have encoded the Target variable values as the following
 * Health Outcomes = 1
