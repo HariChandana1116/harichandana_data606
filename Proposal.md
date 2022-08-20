@@ -48,10 +48,10 @@ We plan to use cities, state, measure and measure id in our analysis. The target
 
 #### What kinds of techniques/models do you plan to use (for example, clustering, NLP, ARIMA, etc.)?
 * Decision Tree
-* Logistic Regression
-* Cross Validation
-* Grid Search
-* KNN classifier
+* Linear Regression
+* Lasso Regression
+* Random Forest 
+* Ridge Regression
 #### How do you plan to develop/apply ML and how you evaluate/compare the performance of the models?
 We are planning to evaluate the metrics such as recall, accuracy, precision, f-1 score and  confusion matrix. 
 #### What outcomes do you intend to achieve (better understanding of problems, tools to help solve problems, predictive analytics with practicle applications, etc)?
@@ -59,12 +59,12 @@ We will be visualizing data with the help of Tableau. We are also contemplating 
 #### Work Distribution
 ##### Hari Chandana Datla
 * Data Cleansing and pre processing
-* Logistic Regression
-* KNN classifier
-* Grid Search
+* Linear Regression
+* Lasso classifier
+* Random Forest
 * Metrics
 ##### Lakshmi Chandana Shaik
 * Data EDA
 * Decision Tree
-* Cross Validation
+* Ridge Regression
 * Data visualization 
