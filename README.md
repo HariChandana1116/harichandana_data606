@@ -4,7 +4,7 @@
 ###### Hari Chandana Datla
 ###### Lakshmi Chandana Shaik
 [Project link Youtube](https://youtu.be/vc3as84qhiM)
-
+[presentation link]
 
 #### **Contents**
 * [Introduction & Overview](#introduction--overview)
@@ -53,16 +53,17 @@ we have also plotted scatter plot for the relationship between obesity and high 
 
 ### **Data Processing & Encoding**
 
-There comes processing the data for further usage especially for the machine learning that will be used.
-It was found that there is some imbalance in the target variable. SO we had to resample the data which means balancing any imbalances in the features that will be worked on. The below graphs show you how the target variable looks before and after resampling the data.
+After EDA, the we had to further process our dataset in order to make it ready for our machine learning analysis. We have found a significant imbalance in our dataset. So we have performed resampling to balace our data as using imbalance data for machine learning analysis can produce biased results. Below is the image that shows the data before and after resampling.
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/77841272/185726637-ed1f2373-f66d-4275-94b3-cd5f7457739f.png">
 
-Now as the target variable is totally balanced, the taret variable is categorical variable as well. Therefore, onehot encoding is used to encode the required columns. Below are some snippets regarding the same.
+After resampling we have started encoding all the categorical values using OneHotEncoder. As part of encoding we have encoded the Target variable values as the following
+* Health Outcomes = 1
+* Unhealthy Behavior =2
+* Prevention = 3
+The below is the final dataset that we have used for machine learning models.
+<img width="542" alt="image" src="https://user-images.githubusercontent.com/77841272/185726822-6efac626-c9ee-49c5-b782-89ba3a60aec9.png">
+We have split this final dataset into training and test dataset with 70% of the data in training and the remaininng 30% for testing.
 
-IMAGE10
-
-As the data is ready to face machine learning models, we began to split the data into training and testing dataset like below.
-
-IMAGE 11
 
 ### **Machine Learning Models**
 
@@ -73,17 +74,9 @@ We have decided to perform three regression models and two classifier models on 
 4. Decision Tree Classifier
 5. Random Forest CLassifier
 
-Below image shows the scores of regression models.
+The three linear regression models Linear, Lasso and Ridge can be found in the [Regression](https://github.com/HariChandana1116/harichandana_data606/blob/main/EDA%20and%20Machine%20Learning/Regression_models.ipynb) notebook. Ridge and Lasso regression models fall into the same family of Linear regression model. But the difference is the model is penalized for its choice of the weights. In Lasso regression the absolute values of weight will be reduced, and many will tend to be zeros. Therefore it will avoid overfitting which generally happen in linear regression model. Similar to Lasso in Ridge regression the model is penalized for the sum of squared value of the weights.
 
-IMAGE 12
-
-Followed by the results of classification models.
-
-IMAGE 13
-
-To have a better understanding and comparision, we have compared all the results and put them together in the bar graph for better understanding.
-
-IMAGE 14
+Decision tree is a supervised machine learning algorithm that can be used for both classification and regression. And as the name suggests Random Forest is a tree-based machine learning algorithm that uses the power of multiple decision trees for making decisions.
 
 
 ### **Conclusion**
@@ -92,6 +85,7 @@ From our machine learning models performance scores, we have found out that the 
 
 <img width="457" alt="image" src="https://user-images.githubusercontent.com/77841272/185714625-0319845d-e80a-46bd-a388-994df6a25729.png">
 
+This analysis has further scope where each measure can be analysed seperately for specific geographic location. Such analysis will be useful for government agencies and digital health care application developers in designing new initiatives and business ventures in respect to each specific geographical location.
 
 ### **References**
 
@@ -100,3 +94,5 @@ From our machine learning models performance scores, we have found out that the 
 [500 Cities- CDC](https://chronicdata.cdc.gov/500-Cities-Places/500-Cities-Local-Data-for-Better-Health-2018-relea/rja3-32tc)
 
 [Regression models](https://towardsdatascience.com/whats-the-difference-between-linear-regression-lasso-ridge-and-elasticnet-8f997c60cf29)
+
+[Classification models](https://www.analyticsvidhya.com/blog/2020/05/decision-tree-vs-random-forest-algorithm/)
