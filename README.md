@@ -20,7 +20,7 @@
 * [References](#references)
 
 #### **Introduction & Overview**
-Health is a foremost important factor in the society. In the current fast living culture people are falling prey for chronic diseases. Unhealthy behaviors and eating habits are leading to chronic diseases like high blood pressures, diabetes and unhealthy cholestrol levels. Along with these people are also looking for ways to prevent these diseases by adopting much healthier choices. This capstone project provides an insight into use of health care data, starting with generating a quality data, disovering patterns and extracting knowledge using various machine learning models.
+Health is a foremost important factor in the society. In the current fast living culture people are falling prey for chronic diseases. Unhealthy behaviors and eating habits are leading to chronic diseases like high blood pressures, diabetes and unhealthy cholestrol levels. Along with these people are also looking for ways to prevent these diseases by adopting much healthier choices. This capstone project provides an insight into use of health care data, starting with generating a quality data, discovering patterns and extracting knowledge using various machine learning models.
 In this project we have used various tools such as Matplotlib, Sweetviz, PySpark, PySparkSQL and python machine learning libraries.  
 
 #### **Dataset Overview**
